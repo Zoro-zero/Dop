@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@color/black">
+
+<EditText
+    android:paddingStart="22dp"
+    android:id="@+id/poch"
+    android:layout_width="300dp"
+    android:layout_height="40dp"
+    android:hint="@string/poch"
+    android:background="@color/white"
+    android:textColorHint="@color/teal_200"
+    app:layout_constraintStart_toStartOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:layout_margin="42dp"
+    app:layout_constraintTop_toBottomOf="parent"
+    app:layout_constraintEnd_toEndOf="parent"/>
+    <EditText
+        android:paddingStart="22dp"
+        android:id="@+id/them"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:hint="@string/them"
+        android:background="@color/white"
+        android:textColorHint="@color/purple_700"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="42dp"
+        app:layout_constraintTop_toBottomOf="@id/poch"
+        app:layout_constraintEnd_toEndOf="parent"/>
+    <EditText
+        android:id="@+id/mesage"
+        android:layout_width="300dp"
+        android:layout_height="60dp"
+        android:hint="@string/Mesage"
+        android:paddingStart="22dp"
+        android:background="@color/white"
+        android:textColorHint="@color/teal_700"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="42dp"
+        app:layout_constraintTop_toBottomOf="@id/them"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <Button
+        android:id="@+id/btn_sms"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/sms"
+        app:layout_constraintStart_toStartOf="parent"
+        android:layout_margin="42dp"
+        app:layout_constraintTop_toBottomOf="@id/mesage"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+    <ImageView
+        android:layout_width="420dp"
+        android:layout_height="380dp"
+        android:background="@drawable/img"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/btn_sms"
+        app:layout_constraintEnd_toEndOf="parent"
+        />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

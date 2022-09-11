@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">dop_dz</string>
+    <string name="poch">Введите вашу почту</string>
+    <string name="them">Укажите тему сообщения</string>
+    <string name="Mesage">Какое собщенние желаете отправить</string>
+    <string name="sms">отправить смс</string>
+</resources>
